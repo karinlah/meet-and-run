@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="finalproj.com.corun.Activities.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+    <ListView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/act_list"
+        android:name="finalproj.com.corun.Fragments.runsbooksFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        tools:context="finalproj.com.corun.Fragments.runsbooksFragment"
+        tools:listitem="@layout/fragment_runsbooks"
+        android:layout_below="@+id/app_bar"
+        android:layout_alignEnd="@+id/app_bar" />
+    
+</android.support.v4.widget.NestedScrollView>
+

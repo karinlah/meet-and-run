@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<item-->
+        <!--android:id="@+id/early_morning"-->
+        <!--android:title="Early morning (5-7)"-->
+        <!-->-->
+    <!--</item>-->
+    <!--<item-->
+        <!--android:id="@+id/morning"-->
+        <!--android:title="Morning(8-11)"-->
+        <!--android:icon="@drawable/morning">-->
+    <!--</item>-->
+    <!--<item-->
+        <!--android:id="@+id/early_afrernoon"-->
+        <!--android:title="Early afternoon (11-1)"-->
+        <!--android:icon="@drawable/e_aftern">-->
+    <!--</item>-->
+    <!--<item-->
+        <!--android:id="@+id/afternoon"-->
+        <!--android:title="Afternoon(2-4)"-->
+        <!--android:icon="@drawable/aftern">-->
+    <!--</item>-->
+    <!--<item-->
+        <!--android:id="@+id/evning"-->
+        <!--android:title="Evening(5-8)"-->
+        <!--android:icon="@drawable/evening">-->
+    <!--</item>-->
+    <!--<item-->
+        <!--android:id="@+id/night"-->
+        <!--android:title="Night(9-11)"-->
+        <!--android:icon="@drawable/night">-->
+    <!--</item>-->
+    <!--<item-->
+        <!--android:id="@+id/after_mid_night"-->
+        <!--android:title="Middle of the night(12-4)"-->
+        <!--android:icon="@drawable/mnight">-->
+    <!--</item>-->
+
+</menu>

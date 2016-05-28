@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_id": "meetandrunproj",
+    "project_number": "640659947771",
+    "name": "MeetAndRun"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:640659947771:android:37edb998f4fbd8fe",
+        "client_id": "android:com.meetandrun",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.meetandrun",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "640659947771-2nnpn5okanokjm56199ct02i9sshsc1k.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.meetandrun",
+            "certificate_hash": "CE32076B555F91E8B3A679DBD3C530E9A896AE19"
+          }
+        },
+        {
+          "client_id": "640659947771-l8p5vvrhqikisna5hcaffpa84pnem1rj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 2
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

@@ -1,0 +1,161 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.MapFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            android:id="@+id/map"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_gravity="right|bottom" />
+
+        <LinearLayout
+            android:id="@+id/uppder_btn"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:background="@color/colorWhiteTrans"
+            android:textColor="#ffffffff"
+            android:layout_height="67dp"
+            android:layout_weight="8"
+            android:layout_gravity="top|center"
+            android:padding="10dp">
+
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/btn_time"
+                        android:text="Time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:alpha="1"
+                        android:textSize="10dp"
+                        android:background="@android:color/transparent"
+                        android:drawableLeft="@drawable/time"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:padding="10dp"
+                        android:paddingRight="30dp"
+                        android:paddingLeft="30dp"
+                        android:layout_gravity="left|center"
+                        android:layout_weight="1" />
+
+                    <Button
+                        android:id="@+id/btn_date"
+                        android:text="Date"
+                        android:textSize="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/transparent"
+                        android:textColor="#000000"
+                        android:alpha="1"
+                        android:drawableLeft="@drawable/date"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:padding="10dp"
+                        android:layout_below="@+id/uppder_btn"
+                        android:layout_alignLeft="@+id/FAB_new_run"
+                        android:layout_alignStart="@+id/FAB_new_run"
+                        android:layout_weight="1"
+                        android:layout_gravity="center_vertical|right" />
+                </LinearLayout>
+            </FrameLayout>
+
+        </LinearLayout>
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/FAB_new_run"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center|right"
+            android:scaleType="center"
+            android:src="@drawable/add"
+            android:padding="30dp"
+            app:backgroundTint="@color/colorWhiteTrans"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="20dp">
+
+        </android.support.design.widget.FloatingActionButton>
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:progress="20"
+            android:layout_below="@+id/uppder_btn"
+            android:layout_alignParentStart="true" />
+
+        <!--<android.support.design.widget.FloatingActionButton-->
+            <!--android:id="@+id/FAB_search"-->
+            <!--android:src="@drawable/search"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:scaleType="center"-->
+            <!--app:backgroundTint="@color/colorWhiteTrans"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_vertical|bottom"-->
+            <!--android:layout_marginBottom="141dp"-->
+            <!--android:layout_marginLeft="33dp"-->
+            <!--android:layout_marginStart="33dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true">-->
+
+        <!--</android.support.design.widget.FloatingActionButton>-->
+
+        <!--<LinearLayout-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:background="@color/colorWhiteTrans"-->
+            <!--android:textColor="#ffffffff"-->
+            <!--android:layout_height="120dp"-->
+            <!--android:layout_weight="8"-->
+            <!--android:padding="10dp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_alignParentStart="true"-->
+            <!--android:id="@+id/linearLayout">-->
+
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_set_location"-->
+                <!--android:text="Set Location"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@android:color/transparent"-->
+                <!--android:textColor="#000000"-->
+                <!--android:alpha="1"-->
+                <!--android:drawableLeft="@drawable/where"-->
+                <!--android:gravity="center_vertical|center_horizontal"-->
+                <!--android:layout_gravity="center" />-->
+
+            <!--<EditText-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/editText"-->
+                <!--android:hint="Address"-->
+                <!--android:layout_gravity="center_horizontal" />-->
+
+        <!--</LinearLayout>-->
+
+    </RelativeLayout>
+
+</FrameLayout>
+

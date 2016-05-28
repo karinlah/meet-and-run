@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Meet &amp; Run</string>
+
+    <string name="sql_ipv4_address">173.194.235.10</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="signed_in_fmt">Signed in as: %s</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in CoRun</string>
+    <string name="loading">Loading…</string>
+    <string name="signed_out">Signed out</string>
+    <string name="disconnect">Disconnect</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="title_text">Sign-In with your Google acount</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="location_permission_denied">CoRun requires location permission to enable. Please try again and grant access to use the location.\nIf the permission has been permanently denied, it can be enabled from the System Settings &gt; Apps &gt; \'CoRun\'.</string>
+    <string name="title_activity_maps">Find CoRunners around you</string>
+    <string name="permission_required_toast">Location permission is required for this app.</string>
+    <string name="permission_rationale_location">Access to the location service is required to demonstrate the \\\'my location\\\' feature, which shows your current location on the map.</string>
+    <string name="sub_title">Just run together</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_user_settings">UserSettings</string>
+    <string name="title_activity_user_settigns">UserSettigns</string>
+    <string name="title_activity_login_user">Sign in</string>
+
+    <!--<string name="google_app_id">59205112262</string>-->
+    <!--<string name="google_app_id">640659947771</string>-->
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <string name="app_font">fonts/orangeJuice.ttf</string>
+
+    <string name="t_e_mor">Early morning (5-7 AM)</string>
+    <string name="t_mor">Morning(8-11 AM)</string>
+    <string name="t_e_af">Early afternoon (11-1 AM)</string>
+    <string name="t_af">Afternoon(2-4 PM)</string>
+    <string name="t_ev">Evening(5-8 PM)</string>
+    <string name="t_night">Night(9-11 PM)</string>
+    <string name="t_m_night">Middle of the night(12-4 AM)</string>
+    <string name="create_new_run">New run</string>
+    <string name="new_run_ok_dialog">Congratulations! Your run has been created successfully</string>
+    <string name="location_disable_alert">Please enable your GPS location for locate runs arround you</string>
+</resources>
+
